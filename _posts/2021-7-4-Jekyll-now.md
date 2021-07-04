@@ -3,7 +3,7 @@ layout: post
 title: Traduction - Crée ton blog sur Github avec Jekyll Now !
 ---
 
-:warning: Cet article est une traduction du fichier `README.md` du repository [tongqqiu/jelly-now](https://github.com/tongqqiu/jelly-now) :warning:
+⚠️ Cet article est une traduction du fichier `README.md` du repository [tongqqiu/jelly-now](https://github.com/tongqqiu/jelly-now) ⚠️
 
 
 # Jekyll Now
@@ -13,7 +13,7 @@ title: Traduction - Crée ton blog sur Github avec Jekyll Now !
 **Jekyll Now** facilite la création de votre blog Jekyll, en éliminant ainsi une grande partie de la configuration du *front*.
 
 - Vous n'avez pas besoin de toucher de lignes de commande.
-- Vous n'avez pas besoin d'installer / configurer Ruby, rvm/rbenv, ruby gems. :relaxed:
+- Vous n'avez pas besoin d'installer / configurer Ruby, rvm/rbenv, ruby gems. ☺️
 - Vous n'avez pas besoin d'installer des dépendances comme un processeur markdown, Pygments, etc.
 - Si vous êtes sous Windows, cela facilitera la mise en place de Jekyll.
 - C'est facile d'essayer, vous pouvez simplement supprimer votre fork de dépôt si vous ne l'aimez pas.
@@ -64,7 +64,7 @@ Faire une modification sur `_config.yml` (ou tout fichier de votre dépôt) obli
 
 ## Plus encore !
 
-J'ai créé une procédure *pas-à-pas* plus détaillée, [**Construire un blog avec Jekyll et GitHub Pages**](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/) sur le site Web de Smashing Magazine. Allez le voir si vous souhaitez une procédure pas à pas plus détaillée et plus d'éléments sur Jekyll. :metal:
+J'ai créé une procédure *pas-à-pas* plus détaillée, [**Construire un blog avec Jekyll et GitHub Pages**](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/) sur le site Web de Smashing Magazine. Allez le voir si vous souhaitez une procédure pas à pas plus détaillée et plus d'éléments sur Jekyll. 🤘
 
 Cela couvre :
 
@@ -86,7 +86,7 @@ Cela couvre :
 ✓ Intégration de Google Analytics  
 ✓ Icônes de réseaux sociaux au format SVG sur le footer de vos pages
 ✓ seulement 3 requêtes http, en incluant votre avatar  
-✓ Emoji dans vos publications ! :sparkling_heart: :sparkling_heart: :sparkling_heart:  
+✓ Emoji dans vos publications ! 💖💖💖
 
 ✘ Pas d'installation de dépendances  
 ✘ Pas besoin de mettre en place d'environnement de développement local  
