@@ -12,13 +12,13 @@ title: Traduction - Crée ton blog sur Github avec Jekyll Now !
 
 **Jekyll Now** facilite la création de votre blog Jekyll, en éliminant ainsi une grande partie de la configuration du *front*.
 
-- Vous n'avez pas besoin de toucher de lignes de commande
-- Vous n'avez pas besoin d'installer / configurer Ruby, rvm/rbenv, ruby gems :relaxed:
+- Vous n'avez pas besoin de toucher de lignes de commande.
+- Vous n'avez pas besoin d'installer / configurer Ruby, rvm/rbenv, ruby gems. :relaxed:
 - Vous n'avez pas besoin d'installer des dépendances comme un processeur markdown, Pygments, etc.
 - Si vous êtes sous Windows, cela facilitera la mise en place de Jekyll.
-- C'est facile d'essayer, vous pouvez simplement supprimer votre fork de dépôt si vous ne l'aimez pas
+- C'est facile d'essayer, vous pouvez simplement supprimer votre fork de dépôt si vous ne l'aimez pas.
 
-En quelques minutes, vous aurez mis en place un blog minimal et responsive comme celui ci-dessous vous donnant plus de temps pour écrire des publications géniales !
+En quelques minutes, vous aurez mis en place un blog minimal et responsive comme celui ci-dessous, vous donnant plus de temps pour écrire des publications géniales !
 
 ![Jekyll Now Theme Screenshot](/images/jekyll-now-theme-screenshot.jpg "Jekyll Now Theme Screenshot")
 
@@ -36,9 +36,9 @@ Votre blog Jekyll sera normalement visible immédiatement via <http://nomdutilis
 
 Entrez votre nom, une description, votre avatar et de nombreuses autres options en modifiant le fichier `_config.yml`. Vous pouvez facilement activer le suivi Google Analytics, les commentaires Disqus et les icônes de réseaux sociaux ici également.
 
-Faire une modification sur `_config.yml` (ou tout fichier de votre dépôt) obligera *GitHub Pages* à reconstruire votre site avec Jekyll. Votre site reconstitué sera visible quelques secondes plus tard via <http://nomdutilisateurgithub.github.io> - sinon, donnez-lui dix minutes, comme le suggère GitHub et il apparaîtra bientôt
+Faire une modification sur `_config.yml` (ou tout fichier de votre dépôt) obligera *GitHub Pages* à reconstruire votre site avec Jekyll. Votre site reconstitué sera visible quelques secondes plus tard via <http://nomdutilisateurgithub.github.io> - sinon, donnez-lui dix minutes, comme le suggère GitHub et il apparaîtra bientôt.
 
-> Vous pouvez modifier les fichiers de votre blog de 3 différentes manières:
+> Vous pouvez modifier les fichiers de votre blog de 3 différentes manières :
 
 > 1. Modifiez des fichiers dans votre nouveau dépôt *nomdutilisateurgithub.github.io* via le navigateur sur GitHub.com (illustré ci-dessous).
 > 2. Utilisez un éditeur de contenu GitHub tiers, comme [Prose par Development Seed](http://prose.io). Il est optimisé pour une utilisation avec Jekyll, éditer les fichiers *markdown*, écrire des brouillons et envoyer des images vraiment facilement.
@@ -52,22 +52,21 @@ Faire une modification sur `_config.yml` (ou tout fichier de votre dépôt) obli
 
 ![First Post](/images/first-post.png "Premier article")
 
-> Vous pouvez également ajouter des articles supplémentaires dans le navigateur sur GitHub.com! Il suffit de cliquer sur l'icône **+** dans `/_posts/` pour créer un nouveau contenu. Assurez-vous simplement d'inclure le bloc [front-matter](http://jekyllrb.com/docs/frontmatter/) en haut de chaque article de blog et assurez-vous que le nom du fichier de la publication est dans ce format: `annee-mois-jour-titre.md`
+> Vous pouvez également ajouter des articles supplémentaires dans le navigateur sur GitHub.com! Il suffit de cliquer sur l'icône **+** dans `/_posts/` pour créer un nouveau contenu. Assurez-vous simplement d'inclure le bloc [front-matter](http://jekyllrb.com/docs/frontmatter/) en haut de chaque article de blog et assurez-vous que le nom du fichier de la publication est dans ce format : `annee-mois-jour-titre.md`
 
 ## Développement en local
 
-5. Commit any changes and push everything to the master branch of your GitHub user repository. GitHub Pages will then rebuild and serve your website.
-1. Installez Jekyll et les plug-ins en une fois. `gem install github-pages` Cela fera un mirroir des plug-ins utilisés par *Github Pages* sur votre machine locale, y compris Jekyll, Sass, Gemoji, etc.
+1. Installez Jekyll et les plug-ins en une fois. `gem install github-pages` cela fera un mirroir des plug-ins utilisés par *Github Pages* sur votre machine locale, y compris Jekyll, Sass, Gemoji, etc.
 2. Clonez votre fork `git clone git@github.com:nomdutilisateurgithub/nomdutilisateurgithub.github.io.git`
 3. Faite un serveur pour votreblog et surveillez les changements de mise en page, de contenu ou les changements sass `jekyll serve`
 4. Affichez votre site Web à l'adresse http://0.0.0.0.4000
 5. Committez tout changement et poussez le tout sur la branche `master` de votre dépôt utilisateur GitHub. *GitHub Pages* va ensuite reconstruire et héberger votre site Web.
 
-## Plus encore!
+## Plus encore !
 
 J'ai créé une procédure *pas-à-pas* plus détaillée, [**Construire un blog avec Jekyll et GitHub Pages**](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/) sur le site Web de Smashing Magazine. Allez le voir si vous souhaitez une procédure pas à pas plus détaillée et plus d'éléments sur Jekyll. :metal:
 
-Cela couvre:
+Cela couvre :
 
 - Une procédure pas à pas plus détaillée de la mise en place de votre blog Jekyll
 - Les problématiques courantes que vous pourriez rencontrer lors de l'utilisation de Jekyll
@@ -87,13 +86,13 @@ Cela couvre:
 ✓ Intégration de Google Analytics  
 ✓ Icônes de réseaux sociaux au format SVG sur le footer de vos pages
 ✓ seulement 3 requêtes http, en incluant votre avatar  
-✓ Emoji dans vos publications! :sparkling_heart: :sparkling_heart: :sparkling_heart:  
+✓ Emoji dans vos publications ! :sparkling_heart: :sparkling_heart: :sparkling_heart:  
 
 ✘ Pas d'installation de dépendances  
 ✘ Pas besoin de mettre en place d'environnement de développement local  
 ✘ Pas de configuration de plugins  
 ✘ Pas besoin de passer du temps sur le thème 
-✘ Plus de temps pour coder d'autres choses ... oh attendez: ✓!  
+✘ Plus de temps pour coder d'autres choses ... Oh attendez: ✓!  
 
 ## Questions?
 
@@ -101,7 +100,7 @@ Cela couvre:
 
 ## Autres thèmes forkables
 
-Vous pouvez utiliser les étapes du [Démarrage rapide](https://github.com/barryclark/jekyll-now#quick-start) avec d'autres thèmes qui sont installés pour être forkés aussi! Voici quelques-uns de mes favoris:
+Vous pouvez utiliser les étapes du [Démarrage rapide](https://github.com/barryclark/jekyll-now#quick-start) avec d'autres thèmes qui sont installés pour être forkés aussi ! Voici quelques-uns de mes favoris :
 
 - [Hyde](https://github.com/poole/hyde) par MDO
 - [Lanyon](https://github.com/poole/lanyon) par MDO
@@ -112,7 +111,7 @@ Vous pouvez utiliser les étapes du [Démarrage rapide](https://github.com/barry
 
 ## Crédits
 
-- [Tongqqiu](https://github.com/tongqqiu/jelly-now) - (ndt. Auteur original de cet article)
+- [Tongqqiu](https://github.com/tongqqiu/jelly-now) - (Ndt. Auteur original de cet article)
 - [Jekyll](https://github.com/jekyll/jekyll) - Merci à ses créateurs, ses contributeurs et ses responsables.
 - [SVG icons](https://github.com/neilorangepeel/Free-Social-Icons) - Merci, Neil Orange Peel. Ils sont magnifiques. 
 - [Solarized Light Pygments](https://gist.github.com/edwardhotchkiss/2005058) - Merci, Edward.
