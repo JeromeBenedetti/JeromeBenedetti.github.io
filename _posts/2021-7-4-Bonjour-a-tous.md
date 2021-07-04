@@ -3,8 +3,6 @@ layout: post
 title: Bonjour à tous !
 ---
 
-# La Bienvenue à tous !
-
 Bonjour à toi,
 
 Si comme moi t'es un développeur web (ou une développeuse, mais par souci de facilité, je vais employer le masculin le reste du temps), si comme moi t'aimerais qu'un max d'astuces soient au même endroit, alors t'es le bienvenu [ici]({{ site.baseurl }}/).
