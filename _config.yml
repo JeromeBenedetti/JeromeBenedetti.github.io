@@ -2,11 +2,13 @@
 # This file contains configuration flags to customize your site
 #
 
+theme: jekyll-theme-time-machine
+
 # Name of your site (displayed in the header)
 name: JB dev !
 
 # Short bio or description (displayed in the header)
-description: Un blog de développeur
+description: Un blog de développeur de plus !
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars.githubusercontent.com/u/16275442
