@@ -25,6 +25,10 @@ published: true
     - [Activer le *repository*](#activer-le-repository)
     - [Installer PHP 8](#installer-php-8)
     - [Installer une extension PHP](#installer-une-extension-php)
+- [Installation de MySQL 8](#installation-de-mysql-8)
+    - [Corriger le warning ](#corriger-le-warning)
+    - [Lancer le CLI de MySQL](#lancer-le-cli-de-mysql)
+- [Installation de PhpMyAdmin 5](#installation-de-phpmyadmin-5)
 - [Crédits](#crédits)
 
 ---
@@ -256,6 +260,81 @@ sudo phpenmod [nomdelextension] [nomdelextension2] [...]
 ```
 
 On n'oublie pas de redémarrer Apache avec un petit `sudo apache2ctl restart`.
+
+---
+
+## Installation de MySQL 8
+
+Pour installer MySQL 8 il suffit de lancer la ligne de commande suivante :
+
+```bash
+sudo apt install mysql-server-8.0
+```
+
+Et pour lancer le service :
+
+```bash
+sudo service mysql start
+```
+
+### Corriger le warning 
+
+Quand tu lances le service tu peux avoir cet avertissement :
+
+```bash
+su: warning: cannot change directory to /nonexistent: No such file or directory
+```
+
+Cela signifie que l'utilisateur `mysql`cherche son répertoire ***home***. Pour corriger cela, il te faut arrêter le service, définir le répertoire et relancer le service avec ces commandes :
+
+```bash
+sudo service mysql stop
+sudo usermod -d /var/lib/mysql/ mysql
+sudo service mysql start
+```
+
+### Lancer le CLI de MySQL
+
+Pour lancer le <abbr title="Command Line Interface">CLI</abbr> de MySQL il faut rentrer en tant que root :
+
+```bash
+sudo mysql
+
+# Si ce n'est pas pris alors :
+sudo mysql -u root
+```
+
+## Installation de PhpMyAdmin 5
+
+Pour récupérer la dernière version de 
+```bash
+DATA="$(wget https://www.phpmyadmin.net/home_page/version.txt -q -O-)"
+VERSION="$(echo $DATA | head -n 1)"
+wget https://files.phpmyadmin.net/phpMyAdmin/$VERSION/phpMyAdmin-$VERSION-all-languages.tar.gz
+```
+
+
+tar xvf phpMyAdmin-${VERSION}-all-languages.tar.gz
+
+sudo mv phpMyAdmin-*/ /usr/share/phpmyadmin
+
+sudo mkdir -p /var/lib/phpmyadmin/tmp
+
+sudo chown -R www-data:www-data /var/lib/phpmyadmin
+
+sudo mkdir /etc/phpmyadmin/
+
+sudo cp /usr/share/phpmyadmin/config.sample.inc.php  /usr/share/phpmyadmin/config.inc.php
+
+sudo vim /usr/share/phpmyadmin/config.inc.php
+```
+
+```php
+// /usr/share/phpmyadmin/config.inc.php
+$cfg['blowfish_secret'] = 'e65f14r6hg841GHHJJ';
+// ajouter la ligne suivante si elle n'y est pas
+$cfg['TempDir'] = '/var/lib/phpmyadmin/tmp';
+```
 
 
 
